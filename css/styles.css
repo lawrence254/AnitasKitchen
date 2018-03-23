@@ -2,13 +2,25 @@
 html, body {
   height: 100%;
 }
-.images {
-  padding: 0;
-  position: relative;
+.cover {
+  background-image: url('../img/backgrounds/landing.jpg');
   background-size: cover;
+  height: 100%;
   background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
+  display: flex;
+}
+.logo{
+  padding-left: 40%;
+  padding-top: 7%;
+  position: absolute;
+}
+.landingtext{
+  color: #fff;
+  font-size: 30px;
+  padding-left:37%;
+  margin-top: 30%;
+  text-align: center;
+  font-family: 'Bitter', serif;
 }
 
 .toptext {
@@ -21,15 +33,18 @@ html, body {
   margin: 0 auto;
 }
 .images p{
+  /* HACK:  margin-bottom:20%*/
   text-align: center;
   margin-bottom: 20%;
 }
-.cover {
-  background-image: url('../img/backgrounds/landing.jpg');
+
+.images {
+  padding: 0;
+  position: relative;
   background-size: cover;
-  height: 100%;
   background-repeat: no-repeat;
-  display: flex;
+  background-position: center;
+  overflow: hidden;
 }
 
 .foodtop-container {
@@ -67,5 +82,13 @@ height: inherit; */
 @media (max-width: 480px) {
   .happyhour {
     display: flex;
+  }
+  .logo{
+    padding-left: 17%;
+    padding-top: 45%;
+  }
+  .landingtext{
+    padding-left:5%;
+    padding-top: 90%;
   }
 }
