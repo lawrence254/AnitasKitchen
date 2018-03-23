@@ -102,6 +102,36 @@ height: inherit; */
   padding-top: 10%;
 }
 
+.imgHorizontal{
+  padding: 5%;
+  display: flex;
+}
+.border{
+    box-shadow: 0px 2px 12px 3px rgba(0,0,0,0.75);
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 5%;
+}
+.combine{
+  box-sizing: border-box;
+  border: 5px;
+  max-width: 0%;
+
+  padding: 0;
+}
+.lorem{
+  margin-top: 8%;
+  margin-right: 20%;
+}
+.foodcont{
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 10%;
+  background-color: #fff;
+}
+.fast1{
+  padding: 0;
+}
 /* Media Queries */
 
 @media (max-width: 480px) {
