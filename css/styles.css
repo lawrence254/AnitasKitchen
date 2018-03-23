@@ -147,6 +147,19 @@ height: inherit; */
 .glyphicon-arrow-right{
   color: #F15A29;
 }
+.drinks{
+  margin-top: 10%;
+  margin-left: 25%;
+  /* margin-right: 26%; */
+  /* width: 70%; */
+  text-align: right;
+}
+.drinkscont{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 15%;
+  background-color: #fff;
+}
 /* Media Queries */
 
 @media (max-width: 480px) {
