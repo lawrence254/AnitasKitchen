@@ -132,6 +132,21 @@ height: inherit; */
 .fast1{
   padding: 0;
 }
+.food{
+  margin-top: 6%;
+  width: 70%;
+}
+.rightarrow{
+  background: #fff;
+  border: 1px solid #F15A29;
+  padding: 2%;
+  width: 40%;
+  font-weight: bold;
+  color: #F15A29;
+}
+.glyphicon-arrow-right{
+  color: #F15A29;
+}
 /* Media Queries */
 
 @media (max-width: 480px) {
