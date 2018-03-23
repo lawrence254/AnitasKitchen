@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
 }
+
 .cover {
   background-image: url('../img/backgrounds/landing.jpg');
   background-size: cover;
@@ -9,18 +10,37 @@ html, body {
   background-repeat: no-repeat;
   display: flex;
 }
-.logo{
+
+.logo {
   padding-left: 40%;
   padding-top: 7%;
   position: absolute;
 }
-.landingtext{
+
+.landingtext {
   color: #fff;
   font-size: 30px;
-  padding-left:37%;
+  padding-left: 30%;
   margin-top: 30%;
   text-align: center;
   font-family: 'Bitter', serif;
+}
+
+.burger {
+  width: 55px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+.menu{
+  padding-left: 5%;
+  padding-top: 5%;
+  max-width: 5%;
+}
+
+.glyphicon-menu-hamburger {
+  font-size: 50px;
+  color: white;
 }
 
 .toptext {
@@ -31,8 +51,10 @@ html, body {
   width: 100%;
   bottom: 0;
   margin: 0 auto;
+  font-style: italic;
 }
-.images p{
+
+.images p {
   /* HACK:  margin-bottom:20%*/
   text-align: center;
   margin-bottom: 20%;
@@ -66,6 +88,7 @@ height: inherit; */
   font-family: 'Bitter', serif;
   background-color: #edeeef;
 }
+
 .partytime {
   font-family: 'Bitter', serif;
   height: 50%;
@@ -74,21 +97,23 @@ height: inherit; */
   text-align: center;
   color: #edeeef;
 }
-.texttop{
-  padding-top:10%;
+
+.texttop {
+  padding-top: 10%;
 }
+
 /* Media Queries */
 
 @media (max-width: 480px) {
   .happyhour {
     display: flex;
   }
-  .logo{
+  .logo {
     padding-left: 17%;
     padding-top: 45%;
   }
-  .landingtext{
-    padding-left:5%;
+  .landingtext {
+    padding-left: 1%;
     padding-top: 90%;
   }
 }
