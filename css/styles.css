@@ -32,7 +32,8 @@ html, body {
   background-color: #fff;
   margin: 6px 0;
 }
-.menu{
+
+.menu {
   padding-left: 5%;
   padding-top: 5%;
   max-width: 5%;
@@ -67,6 +68,14 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
+  transition: .8s ease;
+  background: #fff;
+}
+
+/* Handling overlays  */
+
+.images:hover {
+  opacity: 0.6;
 }
 
 .foodtop-container {
@@ -102,41 +111,47 @@ height: inherit; */
   padding-top: 10%;
 }
 
-.imgHorizontal{
+.imgHorizontal {
   padding: 5%;
   display: flex;
 }
-.border{
-    box-shadow: 0px 2px 12px 3px rgba(0,0,0,0.75);
-    position: absolute;
-    margin-left: 26%;
-    margin-top: 5%;
+
+.border {
+  box-shadow: 0px 2px 12px 3px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  margin-left: 26%;
+  margin-top: 5%;
 }
-.combine{
+
+.combine {
   box-sizing: border-box;
   border: 5px;
   max-width: 0%;
-
   padding: 0;
 }
-.lorem{
+
+.lorem {
   margin-top: 8%;
   margin-right: 20%;
 }
-.foodcont{
+
+.foodcont {
   margin-top: 5%;
   margin-left: 12%;
   margin-right: 10%;
   background-color: #fff;
 }
-.fast1{
+
+.fast1 {
   padding: 0;
 }
-.food{
+
+.food {
   margin-top: 6%;
   width: 70%;
 }
-.rightarrow{
+
+.rightarrow {
   background: #fff;
   border: 1px solid #F15A29;
   padding: 2%;
@@ -144,22 +159,32 @@ height: inherit; */
   font-weight: bold;
   color: #F15A29;
 }
-.glyphicon-arrow-right{
+
+.glyphicon-arrow-right {
   color: #F15A29;
 }
-.drinks{
+
+.drinks {
   margin-top: 10%;
   margin-left: 25%;
-  /* margin-right: 26%; */
-  /* width: 70%; */
+  margin-right: 26%;
+  width: 70%;
   text-align: right;
 }
-.drinkscont{
+
+.drinkscont {
   margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 15%;
+  margin-left: 2%;
+  margin-right: 10%;
   background-color: #fff;
 }
+
+.foods {
+  background-image: url('../img/backgrounds/foodsBg.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
 /* Media Queries */
 
 @media (max-width: 480px) {
