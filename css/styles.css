@@ -72,8 +72,6 @@ html, body {
   background: #fff;
 }
 
-/* Handling overlays  */
-
 .images:hover {
   opacity: 0.6;
 }
@@ -183,6 +181,12 @@ height: inherit; */
   background-image: url('../img/backgrounds/foodsBg.jpg');
   background-size: cover;
   height: 100%;
+}
+.container{
+  margin-top: 10%;
+  max-width: 100%;
+  background: #fff;
+  color: #000;
 }
 
 /* Media Queries */
