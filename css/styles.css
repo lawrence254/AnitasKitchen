@@ -188,6 +188,9 @@ height: inherit; */
   background: #fff;
   color: #000;
 }
+.tabsContent{
+  display: flex;
+}
 
 /* Media Queries */
 
