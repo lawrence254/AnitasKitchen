@@ -259,7 +259,6 @@ height: inherit; */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  position: absolute;
 }
 
 .subButton{
@@ -278,8 +277,21 @@ height: inherit; */
 }
 #email{
   width:60%;
-  opacity: .4;
   color: white;
+  opacity: 0.6;
+}
+#email placeholder{
+  opacity: 1;
+}
+.footerBack{
+  background: #F15A29;
+}
+#footerContent{
+  font-family: 'Bitter', serif;
+  color: #fff;
+  font-size: 1.8em;
+  padding-top: 4%;
+  padding-left: 40%;
 }
 /* Media Queries */
 
