@@ -2,7 +2,12 @@
 html, body {
   height: 100%;
 }
-
+/* Styling for the menu */
+.fullNav{
+  position: absolute;
+  display: block;
+  transition: .5s ease-in-out;
+}
 .cover {
   background-image: url('../img/backgrounds/landing.jpg');
   background-size: cover;
@@ -289,9 +294,28 @@ height: inherit; */
 #footerContent{
   font-family: 'Bitter', serif;
   color: #fff;
+  width: 60%;
   font-size: 1.8em;
   padding-top: 4%;
   padding-left: 40%;
+  text-align: justify;
+  display: flex-wrap;
+}
+.socialIcons{
+  font-size: 1.5em;
+  text-align: justify;
+}
+.logo_footer{
+  float: left;
+}
+.menuFooter{
+  margin-left: 8%;
+  font-size: 1.9em;
+}
+.year p{
+  font-size: .5em;
+  text-align: justify;
+  width: 100%;
 }
 /* Media Queries */
 
