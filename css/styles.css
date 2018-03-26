@@ -212,6 +212,11 @@ height: inherit; */
 .thumbnails{
   max-width: 100%;
 }
+.contactBackground{
+  background-image: url('../img/backgrounds/subscribe.jpg');
+  background-size: cover;
+  height: 100%;
+}
 
 /* Media Queries */
 
