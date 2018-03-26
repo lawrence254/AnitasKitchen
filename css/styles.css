@@ -207,9 +207,10 @@ height: inherit; */
   color: #000;
 }
 .customers p{
-  margin-left:30px;
+  margin-left:30px;  font-family: 'Bitter', serif;
+
 }
-.thumbnails{
+.thumbnail{
   max-width: 100%;
 }
 .contactBackground{
@@ -217,7 +218,69 @@ height: inherit; */
   background-size: cover;
   height: 100%;
 }
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+.glyphicon-chevron-left,.glyphicon-chevron-right{
+  color: #F15A29;
+}
+.bartop{
+  background:;
+  height:15%;
+  margin: 0;
+  font-family: 'Bitter', serif;
+  background: #dbdbdb;
+}
+.fastfoodContainer{
+  padding: 0;
+}
+.controller{
+  width: 2%;
+  text-shadow: none;
+  background-image: linear-gradient(to right,rgba(0,0,0,1) 0,rgba(0,0,0,1) 10%); */
+}
+.select a{
+  color: #F15A29;
 
+}
+#carousel{
+  padding: 0;
+  margin: 0;
+}
+.slidecustomers{
+  margin:2%;
+  padding-bottom: 4%;
+}
+.subscribe{
+  background-image: url('../img/backgrounds/subscribe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+}
+
+.subButton{
+  background: #F15A29;
+  width: 30%;
+}
+.sizer{
+  width:500px;
+}
+.subform{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 35%;
+  color: #fff;
+  font-family: 'Bitter', serif;
+}
+#email{
+  width:60%;
+  opacity: .4;
+  color: white;
+}
 /* Media Queries */
 
 @media (max-width: 480px) {
