@@ -197,7 +197,11 @@ height: inherit; */
   margin:2%;
 }
 .text-customers{
+  text-align: center;
   color: #F15A29;
+}
+.text-customers p{
+  color: #000;
 }
 .customers p{
   margin-left:30px;
