@@ -74,6 +74,7 @@ html, body {
 
 .images:hover {
   opacity: 0.6;
+  color: black;
 }
 
 .foodtop-container {

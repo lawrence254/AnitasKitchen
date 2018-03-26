@@ -11,6 +11,7 @@ Welcome to Anita's Kitchen. This repository contains a singlepage website for a 
 When you are done adding the above requirements, your site should run well. You can access the website from the link provided above or if you wish to copy the design, you can easily clone the repository by running the  command `git clone https://github.com/lawrence254/AnitasKitchen.git` on your local machine and you can run your own version.
 ## Known Bugs/Updates/Corrections
 * The site is currently not fully responsive.
+* responsiveness on Mozilla Browsers is an issue.
 ## Built Using
 * HTML5
 * CSS3
