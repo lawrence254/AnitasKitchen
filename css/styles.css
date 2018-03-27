@@ -59,7 +59,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: #F15A29;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   text-align: center;
@@ -424,7 +424,6 @@ height: inherit; */
   text-align: justify;
   width: 100%;
 }
-
 /* Media Queries */
 
 @media (max-width: 480px) {
