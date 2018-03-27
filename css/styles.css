@@ -22,7 +22,7 @@ html, body {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: black;
+  background: #fff;
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
@@ -58,7 +58,7 @@ html, body {
   padding-top: 40px;
   height: 100%;
   width: 100%;
-  background: white;
+  background: #F15A29;
   position: fixed;
   left: 0;
   top: 0;
@@ -100,12 +100,13 @@ html, body {
   background-repeat: no-repeat;
   display: flex;
 }
-
+.logoContainer{
+  margin-left: 40%;
+}
 .logo {
   background-image: url('../img/logoBig.png');
   background-repeat: no-repeat;
   padding-left: 100%;
-  padding-top: 7%;
   height: 100%;
   position: absolute;
   text-align: center;
@@ -126,18 +127,6 @@ html, body {
   background-color: #fff;
   margin: 6px 0;
 }
-
-/* .menu {
-  padding-left: 5%;
-  padding-top: 5%;
-  max-width: 5%;
-}
-
-.glyphicon-menu-hamburger {
-  font-size: 50px;
-  color: white;
-} */
-
 .toptext {
   font-family: 'Bitter', serif;
   color: #fff;
