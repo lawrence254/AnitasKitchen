@@ -124,61 +124,35 @@
     </div>
   </div>
   <div class="container-fluid foods">
-    <div class="foodsnav">
-      <div class="container fastfoodContainer">
-        <ul class="nav nav-tabs bartop">
-          <li class="active"><a class="select" data-toggle="tab" href="#home">Fast Food</a></li>
-          <li><a data-toggle="tab" href="#menu1">Drinks</a></li>
-          <li><a data-toggle="tab" href="#menu2">Chicken</a></li>
-          <li><a data-toggle="tab" href="#menu3">Rice</a></li>
-        </ul>
-
-        <div class="tab-content">
-          <div id="home" class="tab-pane fade in active tabsContent">
-            <div id="carouseltabs" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="img/fastfood/chickenBurger.jpg" alt="...">
-                  <div class="carousel-caption">
-                    Chicken Burger
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="img/fastfood/beefBurger.jpg" alt="...">
-                  <div class="carousel-caption">
-                    Beef Burger
-                  </div>
-                </div>
-                <div class="item">
-                  <img src="img/fastfood/chickenPizza.jpg" alt="...">
-                  <div class="carousel-caption">
-                    Chicken Pizza
-                  </div>
-                </div>
+    <div class="row">
+      <div class="bg tabs-part">
+        <div class="navs">
+          <ul class="nav nav-tabs">
+            <li class="active" style="color:#F15A29;"><a id="activeTab"><strong>Fast Foods</strong></a></li>
+            <li><a id="tab"><strong>Drinks</strong></a></li>
+            <li><a id="tab"><strong>Chicken</strong></a></li>
+            <li><a id="tab"><strong>Rice</strong></a></li>
+          </ul>
+          <div class="tabContent" id="tabContent1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/fastfood/chickenBurger.jpg">
+                <h4 class="fastFoodText">ChickenBurger</h3>
               </div>
-
-              <!-- Controls -->
-              <a class="left carousel-control controller" href="#" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control controller" href="#" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-              </a>
+              <div class="col-md-4">
+                <img src="img/fastfood/beefBurger.jpg">
+                <h4 class="fastFoodText">Beef Burger</h3>
+              </div>
+              <div class="col-md-4">
+                <img src="img/fastfood/chickenPizza.jpg">
+                <h4 class="fastFoodText">Chicken Pizza</h3>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
   <div class="container-fluid">
     <div class="row" class="thumbnail" style="margin:50px 100px 50px 100px;  background-color: white;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
@@ -234,20 +208,20 @@
         </div>
       </form> -->
       <div class="subform">
-        <form class="form-inline" method="post" action="https://github.us12.list-manage.com/subscribe/post?u=1115f0f8ba99fc3d2174996a4&amp;id=3d62318f7b" name="mc-embedded-subscribe-form" class="validate"  novalidate>
+        <form class="form-inline" method="post" action="https://github.us12.list-manage.com/subscribe/post?u=1115f0f8ba99fc3d2174996a4&amp;id=3d62318f7b" name="mc-embedded-subscribe-form" class="validate" novalidate>
           <div class="form-group sizer">
             <input id="email" class="form-control" type="text" placeholder="Your email">
             <button type="submit" class="btn subButton">Subscribe</button>
           </div>
-          </form>
+        </form>
       </div>
     </div>
   </div>
   <div class="container-fluid footerBack">
     <div id="footerContent">
       <div class="topAlign">
-        <span class="logo_footer"><img src="img/footerlogos/logo_white.png" alt=""></span>
-        <p class="menuFooter">MENU</p>
+        <!-- <span class="logo_footer"><img src="img/footerlogos/logo_white.png" alt=""></span> -->
+        <p class="menuFooter"><img src="img/footerlogos/logo_white.png" alt="">MENU</p>
       </div>
       <div class="centerText">
         <p>Thats What We Are</p>
