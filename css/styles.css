@@ -486,14 +486,19 @@ background:green;
 }
 .fastFoodText{
   color: #F15A29;
+  font-family: 'Bitter', serif;
 }
 #activeTab {
   color: #F15A29;
   text-align: center;
+  font-family: 'Bitter', serif;
+
 }
 #tab{
   color: #404142;
   text-align: center;
+  font-family: 'Bitter', serif;
+
 }
 /* Media Queries */
 
